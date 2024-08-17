@@ -1,0 +1,21 @@
+h2{
+    text-align: center;    
+}
+div{
+    align-items: center;
+}
+header{
+    text-align: center;
+    font-size: xx-large;
+}
+div{
+    display: flex;
+    justify-content: center;
+    
+}
+h2{
+    text-shadow: 2px 2px black;
+    text-align: r;
+    color: white;
+    font-family:"Impact";
+} 
