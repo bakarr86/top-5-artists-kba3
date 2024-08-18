@@ -1,21 +1,35 @@
-h2{
-    text-align: center;    
-}
-div{
-    align-items: center;
-}
-header{
+.mj {
     text-align: center;
-    font-size: xx-large;
+    margin: 20px;
 }
-div{
-    display: flex;
-    justify-content: center;
-    
+
+.mj img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
-h2{
-    text-shadow: 2px 2px black;
-    text-align: r;
-    color: white;
-    font-family:"Impact";
-} 
+
+.mj h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.mj p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: gray;
+    margin: 0 auto;
+    width: 80%;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+#bio {
+color: gray;
+cursor: pointer;
+}
+#bio:hover{
+    color: red;
+
+}
