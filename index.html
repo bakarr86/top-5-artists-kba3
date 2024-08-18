@@ -2,12 +2,30 @@
 <html lang="en">
 <head>
     
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakarr's Top 5 Music Artists of All Time!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h3>Music Is Life</h3>
+    <ul id="myList"></ul>
+    <h1>Rappers and Singers List</h1>
+    
+    <ul id="rappers-list">
+        <li class="category">Rappers:</li>
+        <!-- Rappers will be added here -->
+    </ul>
+    <ul id="singers-list">
+        <li class="category">Singers:</li>
+        <!-- Singers will be added here -->
+    </ul>
+
+    
+    <h1>Log In</h1> 
+    <ul id="artists-list </ul>
+     
 <div id="error"></div>
         <form action="/" method="GET">
 <div>
@@ -21,7 +39,7 @@
     <button type="submit">Submit</button>
 </form>    
 
-   <header>Bakarr's Top 5 Music Artists of All Time </header>
+   <header> <h1> Bakarr's Top 5 Music Artists of All Time </h1> </header>
     <div class="mj"></div>
     <div>
     <h2>1. Michael Jackson</h2>
@@ -66,10 +84,26 @@
     <p id="bio">
         Usher Raymond IV, known simply as Usher, is a pivotal force in contemporary R&B and pop music, celebrated for his exceptional vocal talent and dynamic performances. Rising to prominence in the late 1990s with his self-titled album Usher, he soon solidified his status with the release of Confessions in 2004, which became one of the best-selling R&B albums of all time. Known for his smooth falsetto and innovative blend of R&B with elements of pop and hip-hop, Usher has delivered numerous chart-topping hits such as "Yeah!", "Burn", and "U Got It Bad". His influence extends beyond music to dance and fashion, with his impressive choreography and style setting trends across the industry. Throughout his career, Usher has received multiple Grammy Awards and remains a major force in shaping the sound of modern pop and R&B.
     </p>
-</div>
+</div> 
+<div id="artist-container"></div>
+
+<template id="artist-template">
+    <div class="artist">
+        <h2 class="artist-name"></h2>
+        <img class="artist-image" alt="Artist Image">
+        <p class="artist-bio"></p>
+    </div>
+</template>
+
 <script src="./index.js"></script>
 </body>
+<script type="text/javascript">
 
+    const myList= document.getElementById('myList');
+    const docfrag= document.createDocumentFragment();
+
+    
+</script>
 
 
 
